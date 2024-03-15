@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "7fc2afe7-b8fa-4631-ba7a-8fe26e589b7c"
+        },
+        "resourceGroupName": {
+            "value": "RG30"
+        },
+        "name": {
+            "value": "web999"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-RG30-87d5"
+        },
+        "serverFarmResourceGroup": {
+            "value": "RG30"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "linuxFxVersion": {
+            "value": "JAVA|17-java17"
+        }
+    }
+}
